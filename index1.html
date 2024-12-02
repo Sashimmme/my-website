@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ПР_НЕДІЛЬКО</title>
+    <style>
+        body {
+            font-family: DAYTON;
+            margin: 0;
+            padding: 0;
+            background-color: #f3f3f3;
+        }
+        .header {
+            background-color: #FFFFFF;
+            text-align: center;
+        }
+
+        .header img {
+            max-width: 1000px;
+            margin: 20px auto;
+        }
+
+        .menu {
+            background-color: #000000;
+            padding: 15px;
+            text-align: center;
+        }
+
+        .menu a {
+            color: white;
+            margin: 0 20px;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+
+        .menu a:hover {
+            color: #696969;
+        }
+
+        .content {
+            padding: 20px;
+            text-align: center;
+            background-color: #fff;
+        }
+
+        .content img {
+            max-width: 100%;
+            height: auto;
+            margin-top: 20px;
+            border-radius: 10px;
+        }
+
+        section {
+            padding: 50px 20px;
+            text-align: center;
+            border-top: 1px solid #ddd;
+            background-color: #fff;
+        }
+
+        section:nth-child(odd) {
+            background-color: #f7f7f7;
+        }
+
+        section h2 {
+            font-size: 28px;
+            margin-bottom: 20px;
+            color: #222;
+        }
+
+        section p {
+            font-size: 16px;
+            line-height: 1.6;
+            color: #333;
+            margin: 0 auto 20px;
+            max-width: 700px;
+        }
+
+        .product-gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+            justify-items: center;
+        }
+
+        .product-item {
+            text-align: center;
+            max-width: 200px;
+        }
+
+        .product-item img {
+            width: 100%;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .product-item img:hover {
+            transform: scale(1.05);
+            box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .product-item p {
+            margin-top: 10px;
+            font-size: 16px;
+            color: #333;
+        }
+
+        .footer {
+            background-color: #000000;
+            padding: 20px;
+            text-align: center;
+            font-size: 14px;
+            color: #FFFFFF;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <img src="LOGO.png" alt="NOEASY">
+    </div>
+    <div class="menu">
+        <a href="#home">Головна</a>
+        <a href="#products">Продукти</a>
+        <a href="#about">Про нас</a>
+        <a href="#contacts">Контакти</a>
+    </div>
+    <div class="content" id="home">
+        <h2>NOEASY – справжня краса, створена для тебе</h2>
+        <p>Наш косметичний магазин, де ми піклуємось про те, щоб кожен клієнт знайшов свій ідеальний продукт. У нашому асортименті тільки високоякісна косметика з натуральними інгредієнтами, яка підкреслить вашу унікальність та природну красу. Ми пропонуємо широкий вибір засобів для догляду за шкірою, волоссям та тілом, щоб ви могли відчувати себе впевнено щодня. Обирайте NOEASY — простий шлях до справжньої краси!</p>
+
+        <h2>New collection</h2>
+        <img src="1 (1).png" alt="Продукція NOEASY">
+
+        <p>Любіть себе разом з NOEASY — ваш надійний партнер у світі краси.</p>
+    </div>
+    <section id="products">
+        <h2>Продукти</h2>
+        <p>У нашому асортименті широкий вибір засобів для догляду за шкірою, волоссям і тілом. Ми пропонуємо лише натуральну косметику, яка підходить для всіх типів шкіри. Оберіть свій ідеальний засіб і насолоджуйтесь якістю разом із NOEASY.</p>
+        <div class="product-gallery">
+            <div class="product-item">
+                <img src="з.jpg" alt="Продукт 1">
+                <p>Зволожуючий крем</p>
+            </div>
+            <div class="product-item">
+                <img src="д.jpg" alt="Продукт 2">
+                <p>Шампунь для волосся</p>
+            </div>
+            <div class="product-item">
+                <img src="вjpg.jpg" alt="Продукт 3">
+                <p>База під макіяж</p>
+            </div>
+            <div class="product-item">
+                <img src="б.jpg" alt="Продукт 4">
+                <p>Тонік для обличчя</p>
+            </div>
+            <div class="product-item">
+                <img src="л.jpg" alt="Продукт 5">
+                <p>Сироватка</p>
+            </div>
+            <div class="product-item">
+                <img src="г.jpg" alt="Продукт 6">
+                <p>Тонік</p>
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <h2>Про нас</h2>
+        <div class="section-content reverse">
+            <p>NOEASY – це команда професіоналів, яка прагне забезпечити вас найкращою косметикою. Ми створюємо продукти з турботою про природу, адже якість та екологічність — наші головні принципи. Наші клієнти – це наша сім’я, і ми завжди поруч, щоб допомогти.</p>
+            <img src="LOGO.png" alt="Про нас NOEASY">
+        </div>
+    </section>
+    <section id="contacts">
+        <h2>Контакти</h2>
+        <div class="section-content">
+            <p>Зв'яжіться з нами: <br> 
+                Телефон: +380 000 000 000 <br> 
+                Email: info@noeasy.com <br>
+                Адреса: вул. Краси, 12, Полтава, Україна.</p>
+        </div>
+    </section>
+    <div class="footer">
+        ©2024 NOEASY.
+    </div>
+</body>
+</html>
